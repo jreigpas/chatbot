@@ -1,6 +1,7 @@
 {
   "name": "chatbot",
   "version": "0.1.0",
+  "homepage": "https://jreigpas.github.io/chatbot",
   "private": true,
   "dependencies": {
     "@babel/core": "7.12.3",
@@ -81,6 +82,8 @@
     "workbox-webpack-plugin": "5.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "env-cmd -f .env.development node scripts/start.js",
     "build": "env-cmd -f .env.development node scripts/build.js",
     "build:preproduction": "env-cmd -f .env.preproduction node scripts/build.js",
@@ -160,5 +163,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
