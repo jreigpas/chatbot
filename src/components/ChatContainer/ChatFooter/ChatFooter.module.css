@@ -1,0 +1,293 @@
+
+/* Reset basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* */
+
+.ChatFooter {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #dadada;
+}
+
+.InputEnabled {
+  border: 1px solid #666666;
+  color: #161616;
+}
+
+.ChatFooterButton {
+  align-items: center;
+  background-color: transparent;
+  border: 10px solid red;
+  cursor: pointer;
+  display: flex;
+  height: 28px;
+  -webkit-tap-highlight-color: transparent;
+  justify-content: center;
+  overflow: hidden;
+  padding: 4px;
+  width: 28px;
+  text-shadow: none;
+}
+
+
+
+/* MODE KEYBOARD */
+.ChatFooterModeKeyboard {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+  max-height: 78px;
+  padding: 8px 6px 8px 4px;
+}
+
+.inputFile {
+  display: none;
+}
+
+/* .SendButton {
+  position: absolute;
+  right: 42px;
+}
+
+.SendButton > svg {
+  height: 40px;
+  width: 40px;
+  fill: #bbb6b2;
+}
+
+.SendButton:disabled,
+.SendButton[disabled] {
+  background-color: #cccccc;
+  color: #666666;
+} */
+
+.SendButton {
+  /*width: 40px;
+  height: 40px;*/
+  border: 0;
+  background: none;
+}
+
+.SendButton svg {
+  fill: #787570;
+}
+
+.SendButton svg:active,
+.SendButton svg:hover,
+.ClassLabel svg:hover {
+  fill: #000000;
+  cursor: pointer;
+}
+
+/*  */
+
+/* MODE VOICE */
+.ChatFooterModeVoice {
+  display: flex;
+  flex-direction: column;
+  /*position: absolute;*/
+  bottom: 80px;
+  width: 100%;
+}
+
+.ChatFooterVisualizerWrapper {  
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 48px;
+  justify-content: center;
+  padding: 8px;
+  width: 100%;
+  background: #ececec;
+}
+
+/* TODO: temporal delete after test */
+.ChatFooterRecognitionWrapper Textarea {
+  display: flex;
+  margin: 0 8px;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  pointer-events: none;
+}  
+
+.ChatFooterRecognitionWrapper {  
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  height: 48px;
+  padding: 8px 6px 8px 8px;
+  width: 100%;
+  background: #000000;
+}
+
+.ChatFooterKeyboardButton {
+  position: absolute;
+  right: 10px;
+  border: 0;
+}
+.ChatFooterKeyboardButton img {
+  width: 24px;
+  height: 24px;
+}
+/* */
+
+
+.LoadingButton {
+  position: absolute;
+  left: 50%;
+  margin-left: -21px;
+  top: 0;
+  max-height: 42px;
+  max-width: 42px;
+}
+
+
+/* */
+
+@media (max-height: 400px) {
+  .ChatFooter {
+    width: 100%;
+    height: 15vh;
+    padding: 0 7%;
+  }
+
+  .Input {
+    width: 300vh;
+    height: 75%;
+    font-size: 4vh;
+  }
+
+  .Input::placeholder {
+    font-size: 4vh;
+  }
+
+  .SendButton {
+    margin-left: 15px;
+    /*width: 80%;
+    height: 75%;*/
+    font-size: 4vh;
+  }
+}
+
+/* temporal */
+textarea {
+  width: 100%;
+  padding: 8px;
+}
+
+.RecordButton {
+  width: 24px;
+  height: 24px;
+  border: 0;
+  background: none;
+}
+
+.RecordButton svg,
+.ClassLabel svg {
+  fill: #787570;
+}
+
+.RecordButton svg:active,
+.RecordButton svg:hover,
+.ClassLabel svg:hover {
+  fill: #000000;
+  cursor: pointer;
+}
+
+/* wave animation */
+.wave{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  min-height: 100vh;
+}
+.items{
+  height: 14px;
+  width: 4px;
+  background: black;
+  margin: 2px;
+  animation: wave 1s ease-in-out infinite;
+}
+@keyframes wave{
+  0%{
+      transform: scaleY(1);
+  }
+  50%{
+      transform: scaleY(0);
+  }
+  100%{
+      transform: scaleY(1);
+  }
+}
+.items:nth-child(1){
+  animation-delay: 0.2s;
+}
+.items:nth-child(2){
+  animation-delay: 0.4s;
+}
+.items:nth-child(3){
+  animation-delay: 0.6s;
+}
+.items:nth-child(4){
+  animation-delay: 0.4s;
+}
+.items:nth-child(5){
+  animation-delay: 0.2s;
+}
+.items:nth-child(6){
+  animation-delay: 0.2s;
+}
+.items:nth-child(7){
+  animation-delay: 0.4s;
+}
+.items:nth-child(8){
+  animation-delay: 0.6s;
+}
+.items:nth-child(9){
+  animation-delay: 0.4s;
+}
+.items:nth-child(10){
+  animation-delay: 0.2s;
+}
+.items:nth-child(11){
+  animation-delay: 0.2s;
+}
+.items:nth-child(12){
+  animation-delay: 0.4s;
+}
+.items:nth-child(13){
+  animation-delay: 0.6s;
+}
+.items:nth-child(14){
+  animation-delay: 0.4s;
+}
+.items:nth-child(15){
+  animation-delay: 0.2s;
+}
+.items:nth-child(16){
+  animation-delay: 0.2s;
+}
+.items:nth-child(17){
+  animation-delay: 0.4s;
+}
+.items:nth-child(18){
+  animation-delay: 0.6s;
+}
+.items:nth-child(19){
+  animation-delay: 0.4s;
+}
+.items:nth-child(20){
+  animation-delay: 0.2s;
+}

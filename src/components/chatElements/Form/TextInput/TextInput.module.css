@@ -1,0 +1,74 @@
+.TextInput {
+  width: 100%;
+  position: relative;
+}
+
+.TextInput input {
+  width: 100%;
+  padding: 20px 8px 0px 8px;
+  margin-bottom: 15px;
+  height: 60px;
+  font-size: 14px;
+  border: 1px solid #a8a8a8;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #0053a4;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.TextInput input::placeholder {
+  color: #666666;
+  font-weight: 500;
+}
+
+.TextInput input:hover {
+  border-color: #000000;
+}
+
+.Modified input,
+.TextInput input:focus {
+  color: #0053a4;
+  border-color: #0053a4;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+.TextInput label {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.Modified label,
+.TextInput input:focus + label {
+  color: #0053a4;
+}
+
+.Error {
+  color: #ab1228;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.Invalid input {
+  border-color: #ab1228;
+}
+
+.TextInput input:disabled:hover {
+  border-color: #a8a8a8;
+  cursor: not-allowed;
+}
+.TextInput input:disabled {
+  color: #666666;
+  background-color: #f7f7f7;
+  border-color: #a8a8a8;
+}
+
+.TextInput input:disabled + label {
+  color: #666666;
+}

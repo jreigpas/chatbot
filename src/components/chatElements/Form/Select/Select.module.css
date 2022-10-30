@@ -1,0 +1,40 @@
+.Select {
+  width: 100%;
+  position: relative;
+}
+
+.Select select {
+  width: 100%;
+  padding: 20px 8px 0px 8px;
+  margin-bottom: 15px;
+  height: 60px;
+  font-size: 14px;
+  border: 1px solid #a8a8a8;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  font-weight: 500;
+  color: #666666;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Select select:hover {
+  border-color: #000000;
+}
+
+.Modified select {
+  color: #000000;
+  font-weight: 600;
+}
+
+.Select label {
+  position: absolute;
+  top: 9px;
+  left: 12px;
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.Select select:disabled:hover {
+  cursor: not-allowed;
+}

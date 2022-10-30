@@ -1,0 +1,18 @@
+.Image {
+  width: 250px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Image img {
+  width: 100%;
+  height: auto;
+}
+
+.FullSizeImage {
+  width: 100%;
+  max-width: 600px;
+}

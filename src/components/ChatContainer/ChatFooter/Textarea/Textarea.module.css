@@ -1,0 +1,20 @@
+.ChatFooterKeyboardButton {
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    height: 32px;
+    -webkit-tap-highlight-color: transparent;
+    justify-content: center;
+    max-height: 32px;
+    max-width: 32px;
+    overflow: hidden;
+    padding: 4px;
+    width: 32px;
+    text-shadow: none;
+}
+
+.KeyboardButton {
+    fill: white;
+}

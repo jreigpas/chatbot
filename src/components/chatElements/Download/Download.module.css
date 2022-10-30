@@ -1,0 +1,52 @@
+.Download {
+  height: 30px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  color: #c33400;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  line-height: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font: inherit;
+  font-weight: 500;
+  justify-content: left;
+  text-decoration-line: underline;
+}
+
+.Download svg {
+  width: auto;
+  height: 1.4em;
+  margin-right: 0.5em;
+}
+
+.Download:hover,
+.DownloadClicked {
+  color: #0053a4;
+}
+
+.Download:disabled {
+  border-color: #e5e5e5;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.Download:disabled:hover {
+  background-color: inherit;
+}
+
+.Download_cancel {
+  border: none;
+}
+
+@media (max-height: 400px) {
+  .Download {
+    height: 1em;
+    padding: 1em 1em;
+    border: 0.2em solid;
+  }
+}

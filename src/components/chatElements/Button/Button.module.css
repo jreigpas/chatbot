@@ -1,0 +1,88 @@
+.Button {
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  font-size: 13.75px;
+  font-weight: bold;
+  flex: 1;
+  justify-content: center;
+  padding: 12px 24px;
+  margin: 4px;
+  text-decoration: none;
+  background: #025e7e;
+  color: #fff;
+  border: 1px solid #025e7e;
+}
+
+.Button:hover,
+.ButtonClicked {
+  background:#06485f;
+}
+
+.Button:disabled {
+  border-color: #e5e5e5;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.Button:disabled:hover {
+  background-color: inherit;
+}
+
+.Button_cancel {
+  border: none;
+}
+
+.Secondary {
+    background: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0e7295;
+    color: #0e7295;
+    align-items: center;
+    border: 1px solid #1b8fd2;
+    border-radius: 4px;
+    color: #1b8fd2;
+    cursor: pointer;
+    display: flex;
+    flex: 1;
+    font-size: 13.75px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 12px 24px;
+    text-decoration: none;
+}
+
+.Disabled {
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0e7295;
+  color: #0e7295;
+  align-items: center;
+  border: 1px solid #1b8fd2;
+  border-radius: 4px;
+  color: #1b8fd2;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  font-size: 13.75px;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 12px 24px;
+  text-decoration: none;
+  pointer-events:none;
+}
+
+@media (max-height: 400px) {
+  .Button {
+    height: 1em;
+    padding: 1em 1em;
+    border: 0.2em solid;
+  }
+}

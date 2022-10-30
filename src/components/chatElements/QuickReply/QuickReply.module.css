@@ -1,0 +1,21 @@
+.QuickReply {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-block: unset;
+  list-style: none;
+  margin-inline: unset;
+  padding-inline: unset;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.QuickReply > li {
+  margin-right: 10px;
+  display: flex;
+}
+
+.VerticalButtons {
+  flex-direction: column;
+  place-content: start;
+}

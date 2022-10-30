@@ -1,0 +1,17 @@
+.Checkbox input {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.Checkbox input:disabled {
+  cursor: not-allowed;
+}
+.Checkbox input:disabled + label {
+  color: #a8a8a8;
+}
+
+.Error {
+  color: #ab1228;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}

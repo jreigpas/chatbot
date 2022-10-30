@@ -1,0 +1,21 @@
+{
+    "activities": [
+        {
+            "type": "message",
+            "id": "3hOfZq3mDRs7WgiUw4zYyv-uk|0000001",
+            "timestamp": "2022-10-19T11:51:56.2461923Z",
+            "channelId": "directline",
+            "from": {
+                "id": "LM_PRE_Telematicos_eVA",
+                "name": "LM_PRE_Telematicos_eVA"
+            },
+            "conversation": {
+                "id": "3hOfZq3mDRs7WgiUw4zYyv-uk"
+            },
+            "textFormat": "markdown",
+            "text": "Prueba",
+            "entities": []
+        }
+    ],
+    "watermark": "1"
+}

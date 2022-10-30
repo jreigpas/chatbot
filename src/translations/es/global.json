@@ -1,0 +1,59 @@
+{
+  "widget": {
+    "title": "Ada, tu asistente de Carpeta Ciudadana",
+    "button": {
+      "title": "Abrir chat"
+    },
+    "bubble": {
+      "title": "Mensaje de bienvenida",
+      "text1": "¡Hola!",
+      "text2": "¿En qué puedo ayudarte?",
+      "close": "Ocultar el mensaje de bienvenida"
+    }
+  },
+  "chatheader": {
+    "title": "Cabecera del chat",
+    "bot-name": "Ada",
+    "close": "Ocultar el chat",
+    "move": "Mover el chat"
+  },
+  "chatfooter": {
+    "title": "Campo de consulta del chat",
+    "send": "Enviar",
+    "input": {
+      "placeholder": "Escriba aquí",
+      "title": "Introduzca su consulta"
+    }
+  },
+  "chatbody": {
+    "title": "Contenido del chat",
+    "error-msg": "El servicio no está disponible temporalmente. Vuelva a intentarlo en unos minutos."
+  },
+  "carousel": {
+    "title": "Carrusel",
+    "arrow": {
+      "left": "Mover carrusel a la izquierda",
+      "rigth": "Mover carrusel a la derecha"
+    }
+  },
+  "card": {
+    "header": "Tarjeta",
+    "title": "Título de la tarjeta",
+    "description": "Descripción de la tarjeta",
+    "image": "Imagen de la tarjeta",
+    "buttons": "Opciones de la tarjeta"
+  },
+  "chatcontainer": {
+    "title": "Ventana del chat"
+  },
+  "form": {
+    "header": "Fromulario",
+    "inputs": "Campos del formulario",
+    "buttons": "Opciones del formulario",
+    "defaultError": "Este campo es requerido"
+  },
+  "agent": {
+    "agentChat": "Chat con agente",
+    "waitUser": "Seguimos intentando ponerle en contacto con un agente. Por favor, espere en línea."
+  }
+}

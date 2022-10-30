@@ -1,0 +1,40 @@
+.Form {
+  background-color: #fff;
+  width: 300px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  cursor: default;
+  margin-top: 10px;
+}
+
+.Inputs,
+.Buttons {
+  padding-top: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-block: unset;
+  list-style: none;
+  margin-inline: unset;
+  padding-inline: unset;
+}
+
+.Inputs > li,
+.Buttons > li {
+  margin-right: 10px;
+  display: grid;
+  width: 100%;
+}
+
+@media (max-height: 400px) {
+  .Form {
+    width: 65%;
+    font-size: 4vh;
+    padding: 0;
+  }
+
+  .button {
+    font-size: 4vh;
+  }
+}

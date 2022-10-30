@@ -1,0 +1,42 @@
+.Spinner {
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.DotContainer {
+  width: 70px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  margin: 3px;
+  background-color: #d3d3d3;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+.Dot:nth-of-type(2) {
+  animation-delay: 0.2s;
+}
+.Dot:nth-of-type(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

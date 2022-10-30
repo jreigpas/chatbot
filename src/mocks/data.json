@@ -1,0 +1,207 @@
+[
+    {
+        "content": {
+            "type": "CARRUSEL",
+            "content": [
+                {
+                    "type": "card",
+                    "text": "<p>Aparcamiento \uD83C\uDD7F️:</p><p><strong>Aparcamiento mixto. San Cayetano</strong></p><p>Código aparcamiento:</p><p><strong>167692</strong></p><p>Accesibilidad PMR \uD83D\uDC68&zwj;\uD83E\uDDBD:</p><p><strong>No</strong></p><p>Descripción:</p><p> Plazas: 222 públicas y 261 para residentes Abierto 24 horas  Titularidad: Ayuntamiento de Madrid </p>",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar",
+                            "value": "https://www.google.com/maps/search/?api=1&query=40.4344244682971%2C-3.67012877493573"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Aparcamientos-publicos-municipales-Adquisicion-de-la-tarjeta-BonoRed/?vgnextfmt=default&vgnextoid=e622b945feda0510VgnVCM2000000c205a0aRCRD&vgnextchannel=220e31d3b28fe410VgnVCM1000000b205a0aRCRD"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Tarifas",
+                            "value": "https://www.madrid.es/portales/munimadrid/es/Inicio/Movilidad-y-transportes/Aparcamientos-publicos-de-concesion-municipal-rotatorios-y-mixtos-Tarifas?vgnextfmt=default&vgnextoid=f7747cc5c38b2410VgnVCM2000000c205a0aRCRD&vgnextchannel=220e31d3b28fe410VgnVCM1000000b205a0aRCRD&rm=38f87870f3c3b010VgnVCM100000d90ca8c0RCRD"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 2",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar2",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 3",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar3",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 4",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar4",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 5",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar5",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 6", 
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar6",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 7",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar7",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 8",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar8",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                },
+                {
+                    "type": "card",
+                    "text": "Aparcamento 9",
+                    "buttonList": [
+                        {
+                            "type": "URL",
+                            "title": "Cómo llegar9",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "URL",
+                            "title": "Aparcamientos públicos",
+                            "value": "Hola"
+                        },
+                        {
+                            "type": "FLOW",
+                            "title": "Tarifas",
+                            "value": "Hola"
+                        }
+                    ]
+                }
+            ]
+        },
+        "technicalText": {
+            "finalAnswer": true
+        },
+        "buttons": [],
+        "quickReply": [],
+        "description": "Near_Loc_B1-PARKING",
+        "type": "TEXT",
+        "interactionId": "43ca50cd-c11b-4dc3-bee9-4e459a28858c",
+        "evaluable": false
+    }
+]

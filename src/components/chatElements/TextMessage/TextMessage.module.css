@@ -1,0 +1,31 @@
+.TextMessage {
+  width: auto;
+  max-width: 350px;
+  min-width: 70px;
+  padding: 20px; 
+}
+
+.Bot-message {
+  background-color: #e5f1ff;
+  margin-right: 20px;
+  border-radius: 24px 24px 24px 0;
+  word-wrap: break-word;
+}
+.User-message {
+  background-color: #ececec;
+  align-self: flex-end;
+  margin-left: 20px;
+  border-radius: 24px 24px 0 24px;
+}
+
+
+.ImgAvatar {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.WithAvatar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
