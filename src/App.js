@@ -7,18 +7,18 @@ import React, { useState } from "react";
 import IPDataConnection from "./services/eva/IPDataConnection";
 //import TagManager from 'react-gtm-module'
 import DirectSocketConnection from "../src/services/eva/DirectSocketConnection";
-//import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm-module'
 
-/*const tagManagerArgs = {
+const tagManagerArgs = {
   gtmId: process.env.REACT_APP_GTM,
   dataLayer: [{
     'Vendor': 'Ayuntamiento de Madrid'
   }]
-};*/
+};
 
-//console.log('valor', process.env.REACT_APP_GTM);
+console.log('valor', process.env.REACT_APP_GTM);
 
-//TagManager.initialize(tagManagerArgs);
+TagManager.initialize(tagManagerArgs);
 
 const App = (props) => {
   //dispatch
